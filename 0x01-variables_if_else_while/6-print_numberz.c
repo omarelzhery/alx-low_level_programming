@@ -8,7 +8,7 @@
  * int x sdfd
 */
 
-main int(void)
+int main(void)
 {
 	int x;
 
