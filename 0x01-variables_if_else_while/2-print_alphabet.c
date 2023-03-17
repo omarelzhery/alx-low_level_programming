@@ -1,11 +1,23 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - Entry point of the program
+ *
+ * Description: The main function generates a random
+ * number and
+ * computes the last digit to output the corresponding
+ * string.
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
 {
-    for(int x = 'A'; x <= 'Z'; x++)
-    {
-       char small = tolower(x);
-       putchar(small);
-    }
-    return 0;
+	for (int x = 'A'; x <= 'Z'; x++)
+	{
+	char small = tolower(x);
+
+	putchar(small);
+	}
+	return (0);
 }
