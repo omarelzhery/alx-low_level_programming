@@ -10,7 +10,7 @@
 
 int _islower(int c)
 {
-	if (c.isLower == true)
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
