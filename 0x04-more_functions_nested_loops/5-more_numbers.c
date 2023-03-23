@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * more_numbers - print 0123456789
+ *
+ * Return: void
+ */
+
 void more_numbers(void)
 {
 	char c;
