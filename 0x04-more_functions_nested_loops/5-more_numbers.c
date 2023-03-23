@@ -15,3 +15,4 @@ void more_numbers(void)
 		for (c = '0'; c < '15'; c++)
 			_putchar(c);
 	_putchar('\n');
+}
