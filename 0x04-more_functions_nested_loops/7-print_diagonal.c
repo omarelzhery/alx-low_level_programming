@@ -8,9 +8,9 @@
 
 void print_diagonal(int n)
 {
-	int ln;
+	int ln, space;
 
-	if (n == 0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
