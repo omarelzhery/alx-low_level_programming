@@ -11,18 +11,26 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0)
+		if (i % 3 == 0 && !(num % 5 == 0))
 		{
-			printf("fizz");
+			printf("Fizz");
 		}
-		else if (i % 5 == 0)
+		else if (i % 5 == 0 && !(num % 3 == 0))
 		{
-			printf("buzz");
+			printf("Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("FizzBuzz");
 		}
 		else
 		{
 			printf("%d", i);
 		}
+		if (i != 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
