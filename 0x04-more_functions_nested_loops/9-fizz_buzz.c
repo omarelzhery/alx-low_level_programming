@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
  * main- A program that uses puts to print a string
@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && !(num % 5 == 0))
+		if (i % 3 == 0 && !(i % 5 == 0))
 			printf("Fizz");
-		else if (i % 5 == 0 && !(num % 3 == 0))
+		else if (i % 5 == 0 && !(i % 3 == 0))
 			printf("Buzz");
 		else if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz");
