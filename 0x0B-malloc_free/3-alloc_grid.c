@@ -1,10 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
- /**
- * alloc_grid - create array of siz sdfv 3
+/**
+ * alloc_grid - returns a array of siz sdfv 3
+ * integers
  * @width: sdfsklj
  * @height: skjdfn
+ *
  * Description: create array of size
  * Return: pointer
  *
