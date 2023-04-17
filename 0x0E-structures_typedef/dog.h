@@ -9,10 +9,10 @@
  *
  * Description: defines a dog's properties using a struct
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 #endif
