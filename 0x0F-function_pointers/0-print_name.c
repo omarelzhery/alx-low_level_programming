@@ -28,6 +28,7 @@ void print_string(char *str)
 int main(void)
 {
 	char name[] = "John Smith";
+	
 	print_name(name, print_string);
 	return (0);
 }

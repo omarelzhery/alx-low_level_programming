@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Sdf"
+git commit -m "sdfd"
 git push
