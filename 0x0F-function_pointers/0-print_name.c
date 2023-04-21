@@ -10,25 +10,3 @@ void print_name(char *name, void (*f)(char *))
 	printf("Name: ");
 	(*f)(name);
 }
-
-/**
- * print_string - prints a string
- * @str: a pointer to a character array representing the string to be printed
- */
-void print_string(char *str)
-{
-	printf("%s", str);
-}
-
-/**
- * main - entry point of the program
- *
- * Return: 0 on success
- */
-int main(void)
-{
-	char name[] = "John Smith";
-
-	print_name(name, print_string);
-	return (0);
-}
