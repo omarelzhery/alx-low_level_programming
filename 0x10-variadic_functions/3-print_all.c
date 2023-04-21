@@ -24,14 +24,15 @@ void print_all(const char * const format, ...)
 			case 'i':
 				printf("%s%d", sep, va_arg(args, int));
 				break;
-			case 'f':
-				printf("%s%f", sep, va_arg(args, double));
-				break;
 			case 's':
 				str = va_arg(args, char *);
 				if (str == NULL)
 					str = "(nil)";
 				printf("%s%s", sep, str);
+				break;
+			case 'f':
+				f = va_arg(args, double);
+				printf("%f", f);
 				break;
 			default:
 				i++;
