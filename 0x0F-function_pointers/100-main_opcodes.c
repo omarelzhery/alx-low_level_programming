@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		return (2);
- 	}
+	}
 
 	for (i = 0; i < num_bytes; i++)
 	{
