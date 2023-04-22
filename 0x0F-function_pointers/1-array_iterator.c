@@ -5,7 +5,7 @@
  * array_iterator - executes a given function on each element of an array
  * @array: pointer to the first element of an array of integers
  * @size: number of elements in the array
- * @action: pointer to a function that takes an integer as input and returns void
+ * @action: pointer to a function that takes an integer as input and ret
  *
  * Return: void
  */
